@@ -1,60 +1,184 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Instagram Profile Page </title>
+	<title> Instagram Landing Page </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://kit.fontawesome.com/4af37275d1.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
 	<div id="container">
-		<section id="header">
-			<i class="fab fa-instagram fa-2x"></i>
-			<header>
-				Instagram
-			</header>
+		<header id="header">
+			<div class="logo">
+				<i class="fab fa-instagram fa-2x"></i>
+				<header>
+					Instagram
+				</header>
+			</div>
+
 			<input type="text" placeholder="🔍 Search"/>
+			
 			<div class="icons">
 				<i class="fas fa-search-location fa-2x"></i>
 				<i class="fas fa-heart fa-2x"></i>
 				<i class="fas fa-users-cog fa-2x"></i>
 			</div>
-		</section>
-	
-		<section id="statsInfo">
-			<header>
-				<div>
-					<img src="images/idrisElba.jpg" alt="Idris Elba smiling with a black suit" id="profilePic"/>
-				</div>
-			</header>
-			<article>
-				<h2> Idris Elba</h2>
-				<div>
-					<span> <strong> 84 </strong>posts </span>
-					<span> <strong> 56.7k </strong>followers </span>
-					<span> <strong> 3,466 </strong>following </span>
-					<div id="description"> <strong> Idrissa Akuna Elba OBE </strong>is an English actor, writer, producer, musician, DJ, rapper, and singer. He is known for roles including Stringer Bell in the HBO series The Wire, DCI John Luther in the BBC One series Luther, and Nelson Mandela in the biographical film Mandela: Long Walk to Freedom.</div>
-				</div>
-			</article>
-		</section>
+		</header>
+		<section id="section">
+			<main id="postsSection">
+				<section>
+					<div class="postLogo">
+						<img class='smallIcon' src="images/joaquinPhoenix.jpeg" alt="Picture of Joaquin Phoenix"/>
+						<span>Joaquin Phoenix</span>
+					</div>
+					<img class="postImage" src="images/posts/forestWalk.jpeg" alt="">
+					<input class="comment" type="text" name="comment" placeholder="Add a comment...">
+				</section>
+				
+				<section>
+					<div class="postLogo">
+						<img class='smallIcon' src="images/batman.jpeg" alt="Picture of Batman"/>
+						<span>The Dark Knight</span>
+					</div>
+					<img class="postImage" src="images/posts/tableChair.jpeg" alt="">
+					<input class="comment" type="text" name="comment" placeholder="Add a comment...">
+				</section>	
+				
+				<section>
+					<div class="postLogo">
+						<img class='smallIcon' src="images/johnOliver.jpeg" alt="Picture of John Oliver"/>
+						<span>John Oliver</span>
+					</div>
+					<img class="postImage" src="images/posts/trafficWalk.jpeg" alt="">
+					<input class="comment" type="text" name="comment" placeholder="Add a comment...">
+				</section>
+				
+				<section>
+					<div class="postLogo">
+						<img class='smallIcon' src="images/mariaSharapova.jpeg" alt="Picture of Maria Sharapova"/>
+						<span>Maria Sharapova</span>
+					</div>
+					<img class="postImage" src="images/posts/breach.jpeg" alt="">
+					<input class="comment" type="text" name="comment" placeholder="Add a comment...">
+				</section>
+				
+				<section>
+					<div class="postLogo">
+						<img class='smallIcon' src="images/rogerFederer.jpeg" alt="Picture of Roger Federer"/>
+						<span>Roger Federer</span>
+					</div>
+					<img class="postImage" src="images/posts/bae.jpeg" alt="">
+					<input class="comment" type="text" name="comment" placeholder="Add a comment...">
+				</section>
 
-		<section id="photos">
-			<header>
-				<h3>Posts</h3>
-			</header>
-
-			<main>
-				<div>
-					<img src="images/flowers.jpeg" alt="Pink blooming flower" class="images"/>
-					<img src="images/mountains.jpeg" alt="Mountain covered in snow with sunset in the background" class="images"/>
-					<img src="images/butterflies.jpeg" alt="Blue colored butterflies flying around in the evening" class="images" />
-					<img src="images/city.jpeg" alt="Dallas city" class="images"/>
-					<img src="images/heart.jpeg" alt="Tree in the form of heart" class="images"/>
-					<img src="images/love.jpeg" alt="People holding neon love sign" class="images" />
-					<img src="images/spectacles.jpeg" alt="Red spectacles lieing on the beach sand" class="images"/>
-					<img src="images/wolf.jpeg" alt="Beaver scared of wolf" class="images"/>
-					<img src="images/angel.jpeg" alt="Wings of angel" class="images"/>
-				</div>
 			</main>
+			<aside>
+				<section id="profile">
+					<img src="images/Unofficial.jpg" alt="Profile picture"/>
+					<article>
+						<h5>akshay.kum94</h5>
+						<h5 class="fontNormal">Akshay Mysore</h5>
+					</article>
+				</section>
+
+				<section id="stories">
+					<div>
+						<span> Stories </span>
+						<span> Watch All</span>
+					</div>
+					<article class="following">
+						<img src="images/joaquinPhoenix.jpeg" alt="Profile picture of Joaquin Phoenix"/>
+						<article>
+							<h5>Joaquin Phoenix</h5>
+							<h5 class="fontNormal">20 hours ago</h5>
+						</article>
+					</article>
+					<article class="following">
+						<img src="images/mariaSharapova.jpeg" alt="Profile picture of Maria Sharapova"/>
+						<article>
+							<h5 class="username">Maria Sharapova</h5>
+							<h5 class="fontNormal">10 hours ago</h5>
+						</article>
+					</article>
+					<article class="following">
+						<img src="images/rogerFederer.jpeg" alt="Profile picture of Roger Federer"/>
+						<article>
+							<h5 class="username">Roger Federer</h5>
+							<h5 class="fontNormal">2 hours ago</h5>
+						</article>
+					</article>
+					<article class="following">
+						<img src="images/batman.jpeg" alt="Profile picture of Batman"/>
+						<article>
+							<h5 class="username">The Dark Knight</h5>
+							<h5 class="fontNormal">1 hour ago</h5>
+						</article>
+					</article>
+					<article class="following">
+						<img src="images/johnOliver.jpeg" alt="Profile picture of John Oliver"/>
+						<article>
+							<h5 class="username">John Oliver</h5>
+							<h5 class="fontNormal">30 min ago</h5>
+						</article>
+					</article>
+				</section>
+
+				<section id="suggestions">
+					<div>
+						<span> Suggestions For You </span>
+						<span> See All</span>
+					</div>
+					<article class="recommended">
+						<img src="images/billGates.jpeg" alt="Picture of Bill Gates"/>
+						<article>
+							<h5>Bill Gates</h5>
+							<h5 class="fontNormal">20 hours ago</h5>
+						</article>
+					</article>
+					<article class="recommended">
+						<img src="images/satyaNadella.jpeg" alt="Picture of Satya Nadella"/>
+						<article>
+							<h5 class="username">Satya Nadella</h5>
+							<h5 class="fontNormal">10 hours ago</h5>
+						</article>
+					</article>
+					<article class="recommended">
+						<img src="images/hasanMinhaj.jpeg" alt="Picture of Hasan Minhaj"/>
+						<article>
+							<h5 class="username">Hasan Minhaj</h5>
+							<h5 class="fontNormal">2 hours ago</h5>
+						</article>
+					</article>
+					<article class="recommended">
+						<img src="images/idrisElba.jpeg" alt="Picture of Idris Elba"/>
+						<article>
+							<h5 class="username">Idris Elba</h5>
+							<h5 class="fontNormal">1 hour ago</h5>
+						</article>
+					</article>
+					<article class="recommended">
+						<img src="images/pewdiepie.jpeg" alt="Picture of PewDiePie"/>
+						<article>
+							<h5 class="username">PewDiePie</h5>
+							<h5 class="fontNormal">30 min ago</h5>
+						</article>
+					</article>
+				</section>
+
+				<footer id="links">
+					<a href="#" title="About us"> About Us </a>
+					<a href="#" title="About us"> Support </a>
+					<a href="#" title="About us"> Press </a>
+					<a href="#" title="About us"> API </a>
+					<a href="#" title="About us"> Jobs </a>
+					<a href="#" title="About us"> Privacy </a>
+					<a href="#" title="About us"> Terms </a>
+					<a href="#" title="About us"> Directory </a>
+					<a href="#" title="About us"> Profiles </a>
+					<a href="#" title="About us"> Hashtags </a>
+					<a href="#" title="About us"> Language </a>
+				</footer>
+			</aside>
 		</section>
 	</div>
 </body>
